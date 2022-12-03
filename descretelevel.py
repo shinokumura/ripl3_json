@@ -12,7 +12,7 @@
 #
 ####################################################################
 from operation_util import slices
-import fjson
+import json
 
 import sys
 sys.path.append("../")
@@ -147,7 +147,7 @@ def read_levels(charge):
             "levels": [l["level_energy"] for l in levels],
             "level_record": levels,
         }
-        # print(level_dict)
+
 
     return level_dict
 
@@ -155,13 +155,12 @@ def read_levels(charge):
 def main():
     for charge in range(1,119):
         level_dict = read_levels(charge)
-        # print(json.dumps(level_dict, indent=1))
+
 
         for key, item in level_dict.items():
-            # print(key, item)
             # print(fjson.dumps({"nuclide": key, "level_info": item}, indent=1))
-            # post_one_mongodb("ripl3_levels", dict({"nuclide": key, "level_info": item}))
-            replace_one_mongodb("ripl3_levels", dict({"nuclide": key}),  dict({"nuclide": key, "level_info": item}))
+            post_one_mongodb("ripl3_levels", dict({"nuclide": key, "level_info": item}))
+            # replace_one_mongodb("ripl3_levels", dict({"nuclide": key}),  dict({"nuclide": key, "level_info": item}))
 
-
-main()
+if __name__ == "__main__":
+    main()
