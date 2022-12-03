@@ -1,0 +1,79 @@
+{
+  "nuclide": "73Ni",
+  "level_info": {
+    "A": 73,
+    "Z": 28,
+    "nlevels": 4,
+    "Sn": "3.9534e+00",
+    "Sp": "1.7097e+01",
+    "levels": [
+      "0.0000e+00",
+      "2.3920e-01",
+      "5.2430e-01",
+      "1.2990e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 4.5,
+        "parity": 1,
+        "half_life": "8.4000e-01",
+        "spin_notation": "(9/2+)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "2.3920e-01",
+        "spin": 3.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(7/2+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "2.3920e-01",
+            "probability_gamma": "9.8710e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.3060e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "5.2430e-01",
+        "spin": 2.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(5/2+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "5.2460e-01",
+            "probability_gamma": "3.4030e-01",
+            "probability_electmag": "3.4080e-01",
+            "internal_conversion": "1.4810e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "1.2990e+00",
+        "spin": 2.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(5/2-)",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "7.7470e-01",
+            "probability_gamma": "9.9980e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.8270e-04"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

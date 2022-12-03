@@ -1,0 +1,43 @@
+{
+  "nuclide": "59Ti",
+  "level_info": {
+    "A": 59,
+    "Z": 22,
+    "nlevels": 2,
+    "Sn": "3.0330e+00",
+    "Sp": "1.7689e+01",
+    "levels": [
+      "0.0000e+00",
+      "1.1330e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 2.5,
+        "parity": -1,
+        "half_life": "2.8500e-02",
+        "spin_notation": "5/2-#",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.1330e-01",
+        "spin": 0.5,
+        "parity": -1,
+        "half_life": "5.9400e-07",
+        "spin_notation": "(1/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.1330e-01",
+            "probability_gamma": "8.0320e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "2.4500e-01"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

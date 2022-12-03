@@ -1,0 +1,53 @@
+{
+  "nuclide": "188Ta",
+  "level_info": {
+    "A": 188,
+    "Z": 73,
+    "nlevels": 3,
+    "Sn": "5.0860e+00",
+    "Sp": "8.1990e+00",
+    "levels": [
+      "0.0000e+00",
+      "9.9000e-02",
+      "3.9100e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 1.0,
+        "parity": -1,
+        "half_life": "1.9600e+01",
+        "spin_notation": "(1-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "9.9000e-02",
+        "spin": 7.0,
+        "parity": -1,
+        "half_life": "1.9600e+01",
+        "spin_notation": "(7-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 3,
+        "level_energy": "3.9100e-01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": "3.7000e-06",
+        "spin_notation": "",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "2.9240e-01",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

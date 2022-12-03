@@ -1,0 +1,103 @@
+{
+  "nuclide": "9Li",
+  "level_info": {
+    "A": 9,
+    "Z": 3,
+    "nlevels": 8,
+    "Sn": "4.0622e+00",
+    "Sp": "1.3944e+01",
+    "levels": [
+      "0.0000e+00",
+      "2.6910e+00",
+      "4.3010e+00",
+      "5.3800e+00",
+      "6.4300e+00",
+      "1.6000e+01",
+      "1.7100e+01",
+      "1.8900e+01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 1.5,
+        "parity": -1,
+        "half_life": "1.7820e-01",
+        "spin_notation": "3/2-",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "2.6910e+00",
+        "spin": 0.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(1/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "2.6910e+00",
+            "probability_gamma": "9.9940e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "5.8700e-04"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "4.3010e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": "5.1850e-21",
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 4,
+        "level_energy": "5.3800e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": "7.6040e-22",
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 5,
+        "level_energy": "6.4300e+00",
+        "spin": 4.5,
+        "parity": 0,
+        "half_life": "1.1410e-20",
+        "spin_notation": "GE 9/2",
+        "gamma_record": []
+      },
+      {
+        "level_number": 6,
+        "level_energy": "1.6000e+01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 7,
+        "level_energy": "1.7100e+01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": "5.7030e-22",
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 8,
+        "level_energy": "1.8900e+01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": "1.9010e-21",
+        "spin_notation": "",
+        "gamma_record": []
+      }
+    ]
+  },
+  "indent": 1
+}

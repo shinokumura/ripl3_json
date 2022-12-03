@@ -1,0 +1,53 @@
+{
+  "nuclide": "212Ac",
+  "level_info": {
+    "A": 212,
+    "Z": 89,
+    "nlevels": 3,
+    "Sn": "7.9152e+00",
+    "Sp": "8.2124e-01",
+    "levels": [
+      "0.0000e+00",
+      "1.3360e-01",
+      "1.5800e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 7.0,
+        "parity": 1,
+        "half_life": "8.9500e-01",
+        "spin_notation": "7+*",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.3360e-01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.3360e-01",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.5800e-01",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      }
+    ]
+  },
+  "indent": 1
+}

@@ -1,0 +1,945 @@
+{
+  "nuclide": "232U",
+  "level_info": {
+    "A": 232,
+    "Z": 92,
+    "nlevels": 65,
+    "Sn": "7.2678e+00",
+    "Sp": "6.1039e+00",
+    "levels": [
+      "0.0000e+00",
+      "4.7573e-02",
+      "1.5657e-01",
+      "3.2269e-01",
+      "5.4110e-01",
+      "5.6319e-01",
+      "6.2896e-01",
+      "6.9142e-01",
+      "7.3457e-01",
+      "7.4680e-01",
+      "8.0588e-01",
+      "8.3307e-01",
+      "8.6679e-01",
+      "9.1149e-01",
+      "9.1520e-01",
+      "9.2730e-01",
+      "9.6760e-01",
+      "9.7071e-01",
+      "9.8490e-01",
+      "1.0169e+00",
+      "1.0509e+00",
+      "1.0982e+00",
+      "1.1116e+00",
+      "1.1311e+00",
+      "1.1330e+00",
+      "1.1731e+00",
+      "1.1866e+00",
+      "1.1940e+00",
+      "1.2113e+00",
+      "1.2270e+00",
+      "1.2772e+00",
+      "1.3010e+00",
+      "1.3490e+00",
+      "1.3909e+00",
+      "1.4343e+00",
+      "1.4380e+00",
+      "1.4538e+00",
+      "1.4820e+00",
+      "1.4890e+00",
+      "1.5200e+00",
+      "1.5690e+00",
+      "1.6000e+00",
+      "1.6460e+00",
+      "1.7460e+00",
+      "1.7720e+00",
+      "1.7970e+00",
+      "1.8221e+00",
+      "1.8282e+00",
+      "1.8615e+00",
+      "1.8720e+00",
+      "1.9318e+00",
+      "1.9720e+00",
+      "1.9790e+00",
+      "1.9980e+00",
+      "2.0232e+00",
+      "2.0430e+00",
+      "2.0610e+00",
+      "2.0720e+00",
+      "2.1470e+00",
+      "2.1720e+00",
+      "2.2040e+00",
+      "2.2316e+00",
+      "2.2840e+00",
+      "2.3330e+00",
+      "2.6598e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": "2.1740e+09",
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "4.7573e-02",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": "2.4500e-10",
+        "spin_notation": "2+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "4.7600e-02",
+            "probability_gamma": "2.1510e-03",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "4.6400e+02"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.5657e-01",
+        "spin": 4.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "4+",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "1.0900e-01",
+            "probability_gamma": "9.8520e-02",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "9.1500e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "3.2269e-01",
+        "spin": 6.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "6+",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "1.6610e-01",
+            "probability_gamma": "3.8760e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.5800e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 5,
+        "level_energy": "5.4110e-01",
+        "spin": 8.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "8+",
+        "gamma_record": [
+          {
+            "final_state": 4,
+            "gamma_energy": "2.1840e-01",
+            "probability_gamma": "6.4350e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "5.5400e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 6,
+        "level_energy": "5.6319e-01",
+        "spin": 1.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "1-",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "5.6320e-01",
+            "probability_gamma": "4.0350e-01",
+            "probability_electmag": "4.0780e-01",
+            "internal_conversion": "1.0740e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 7,
+        "level_energy": "6.2896e-01",
+        "spin": 3.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "3-",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "5.8140e-01",
+            "probability_gamma": "6.0250e-01",
+            "probability_electmag": "6.0860e-01",
+            "internal_conversion": "1.0100e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 8,
+        "level_energy": "6.9142e-01",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "6.9130e-01",
+            "probability_gamma": "0.0000e+00",
+            "probability_electmag": "0.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 9,
+        "level_energy": "7.3457e-01",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "2+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "7.3450e-01",
+            "probability_gamma": "4.4930e-01",
+            "probability_electmag": "4.5840e-01",
+            "internal_conversion": "2.0350e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 10,
+        "level_energy": "7.4680e-01",
+        "spin": 5.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(5-)",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "5.9030e-01",
+            "probability_gamma": "7.2780e-01",
+            "probability_electmag": "7.3770e-01",
+            "internal_conversion": "1.3680e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 11,
+        "level_energy": "8.0588e-01",
+        "spin": 10.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "10+",
+        "gamma_record": [
+          {
+            "final_state": 5,
+            "gamma_energy": "2.6480e-01",
+            "probability_gamma": "7.7760e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "2.8600e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 12,
+        "level_energy": "8.3307e-01",
+        "spin": 4.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "4+",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "6.7650e-01",
+            "probability_gamma": "9.3690e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "6.7400e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 13,
+        "level_energy": "8.6679e-01",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "2+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "8.6680e-01",
+            "probability_gamma": "4.1840e-01",
+            "probability_electmag": "4.2460e-01",
+            "internal_conversion": "1.4840e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 14,
+        "level_energy": "9.1149e-01",
+        "spin": 3.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(3)+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "9.1140e-01",
+            "probability_gamma": "4.5600e-03",
+            "probability_electmag": "5.6010e-03",
+            "internal_conversion": "2.2820e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 15,
+        "level_energy": "9.1520e-01",
+        "spin": 7.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(7-)",
+        "gamma_record": [
+          {
+            "final_state": 4,
+            "gamma_energy": "5.9240e-01",
+            "probability_gamma": "0.0000e+00",
+            "probability_electmag": "0.0000e+00",
+            "internal_conversion": "1.3570e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 16,
+        "level_energy": "9.2730e-01",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(0+)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "8.7990e-01",
+            "probability_gamma": "1.8480e-03",
+            "probability_electmag": "1.8750e-03",
+            "internal_conversion": "1.4400e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 17,
+        "level_energy": "9.6760e-01",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(2)+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "9.6790e-01",
+            "probability_gamma": "2.3550e-02",
+            "probability_electmag": "2.3830e-02",
+            "internal_conversion": "1.2000e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 18,
+        "level_energy": "9.7071e-01",
+        "spin": 4.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(4+)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "9.2310e-01",
+            "probability_gamma": "3.0020e-01",
+            "probability_electmag": "3.0470e-01",
+            "internal_conversion": "1.4890e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 19,
+        "level_energy": "9.8490e-01",
+        "spin": 6.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "6+",
+        "gamma_record": [
+          {
+            "final_state": 4,
+            "gamma_energy": "6.6220e-01",
+            "probability_gamma": "9.3350e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "7.1200e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 20,
+        "level_energy": "1.0169e+00",
+        "spin": 2.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "2-",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.0164e+00",
+            "probability_gamma": "1.7410e-04",
+            "probability_electmag": "1.9000e-04",
+            "internal_conversion": "9.1500e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 21,
+        "level_energy": "1.0509e+00",
+        "spin": 3.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "3-",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.0514e+00",
+            "probability_gamma": "6.2940e-04",
+            "probability_electmag": "6.4580e-04",
+            "internal_conversion": "2.6000e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 22,
+        "level_energy": "1.0982e+00",
+        "spin": 4.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(4-)",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "9.4160e-01",
+            "probability_gamma": "9.9480e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "5.1800e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 23,
+        "level_energy": "1.1116e+00",
+        "spin": 12.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "12+",
+        "gamma_record": [
+          {
+            "final_state": 11,
+            "gamma_energy": "3.0570e-01",
+            "probability_gamma": "8.4600e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.8200e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 24,
+        "level_energy": "1.1311e+00",
+        "spin": 9.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(9-)",
+        "gamma_record": [
+          {
+            "final_state": 5,
+            "gamma_energy": "5.9000e-01",
+            "probability_gamma": "9.8650e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.3690e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 25,
+        "level_energy": "1.1330e+00",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(2+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.1327e+00",
+            "probability_gamma": "2.7070e-01",
+            "probability_electmag": "2.7310e-01",
+            "internal_conversion": "8.7700e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 26,
+        "level_energy": "1.1731e+00",
+        "spin": 2.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(2)-",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "1.1255e+00",
+            "probability_gamma": "9.9700e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "3.0000e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 27,
+        "level_energy": "1.1866e+00",
+        "spin": 8.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "8+",
+        "gamma_record": [
+          {
+            "final_state": 5,
+            "gamma_energy": "6.4550e-01",
+            "probability_gamma": "9.2930e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "7.6100e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 28,
+        "level_energy": "1.1940e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "(3+,4+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.1939e+00",
+            "probability_gamma": "3.9610e-03",
+            "probability_electmag": "3.9610e-03",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 29,
+        "level_energy": "1.2113e+00",
+        "spin": 3.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "3-",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "1.1645e+00",
+            "probability_gamma": "1.8640e-01",
+            "probability_electmag": "1.8690e-01",
+            "internal_conversion": "2.8900e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 30,
+        "level_energy": "1.2270e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 31,
+        "level_energy": "1.2772e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 32,
+        "level_energy": "1.3010e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 33,
+        "level_energy": "1.3490e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 34,
+        "level_energy": "1.3909e+00",
+        "spin": 11.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "11-",
+        "gamma_record": [
+          {
+            "final_state": 11,
+            "gamma_energy": "5.8500e-01",
+            "probability_gamma": "9.8620e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.3950e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 35,
+        "level_energy": "1.4343e+00",
+        "spin": 10.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "10+",
+        "gamma_record": [
+          {
+            "final_state": 11,
+            "gamma_energy": "6.2840e-01",
+            "probability_gamma": "9.2460e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "8.1500e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 36,
+        "level_energy": "1.4380e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 37,
+        "level_energy": "1.4538e+00",
+        "spin": 14.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "14+",
+        "gamma_record": [
+          {
+            "final_state": 23,
+            "gamma_energy": "3.4220e-01",
+            "probability_gamma": "8.8520e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.2970e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 38,
+        "level_energy": "1.4820e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 39,
+        "level_energy": "1.4890e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 40,
+        "level_energy": "1.5200e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 41,
+        "level_energy": "1.5690e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 42,
+        "level_energy": "1.6000e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 43,
+        "level_energy": "1.6460e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 44,
+        "level_energy": "1.7460e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 45,
+        "level_energy": "1.7720e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 46,
+        "level_energy": "1.7970e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 47,
+        "level_energy": "1.8221e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 48,
+        "level_energy": "1.8282e+00",
+        "spin": 16.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "16+",
+        "gamma_record": [
+          {
+            "final_state": 37,
+            "gamma_energy": "3.7440e-01",
+            "probability_gamma": "9.0850e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.0070e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 49,
+        "level_energy": "1.8615e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 50,
+        "level_energy": "1.8720e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 51,
+        "level_energy": "1.9318e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 52,
+        "level_energy": "1.9720e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 53,
+        "level_energy": "1.9790e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 54,
+        "level_energy": "1.9980e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 55,
+        "level_energy": "2.0232e+00",
+        "spin": 15.0,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(15-)",
+        "gamma_record": [
+          {
+            "final_state": 37,
+            "gamma_energy": "5.6940e-01",
+            "probability_gamma": "9.8540e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.4820e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 56,
+        "level_energy": "2.0430e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 57,
+        "level_energy": "2.0610e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 58,
+        "level_energy": "2.0720e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 59,
+        "level_energy": "2.1470e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 60,
+        "level_energy": "2.1720e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 61,
+        "level_energy": "2.2040e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 62,
+        "level_energy": "2.2316e+00",
+        "spin": 18.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "18+",
+        "gamma_record": [
+          {
+            "final_state": 48,
+            "gamma_energy": "4.0340e-01",
+            "probability_gamma": "8.9860e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.1280e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 63,
+        "level_energy": "2.2840e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 64,
+        "level_energy": "2.3330e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 65,
+        "level_energy": "2.6598e+00",
+        "spin": 20.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(20+)",
+        "gamma_record": [
+          {
+            "final_state": 62,
+            "gamma_energy": "4.2820e-01",
+            "probability_gamma": "9.1330e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "9.4900e-02"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

@@ -1,0 +1,79 @@
+{
+  "nuclide": "94Kr",
+  "level_info": {
+    "A": 94,
+    "Z": 36,
+    "nlevels": 4,
+    "Sn": "5.2831e+00",
+    "Sp": "1.5747e+01",
+    "levels": [
+      "0.0000e+00",
+      "6.6550e-01",
+      "1.5187e+00",
+      "2.5200e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": "2.1200e-01",
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "6.6550e-01",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "2+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "6.6550e-01",
+            "probability_gamma": "9.9860e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.3930e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.5187e+00",
+        "spin": 4.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(4)+",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "8.5320e-01",
+            "probability_gamma": "9.9930e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "7.2700e-04"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "2.5200e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "1.0013e+00",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

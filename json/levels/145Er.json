@@ -1,0 +1,55 @@
+{
+  "nuclide": "145Er",
+  "level_info": {
+    "A": 145,
+    "Z": 68,
+    "nlevels": 4,
+    "Sn": "1.0704e+01",
+    "Sp": "1.9200e+00",
+    "levels": [
+      "0.0000e+00",
+      "1.7500e-01",
+      "2.5300e-01",
+      "4.8400e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 0.5,
+        "parity": 1,
+        "half_life": "9.0000e-01",
+        "spin_notation": "(1/2+)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.7500e-01",
+        "spin": 1.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(3/2+)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 3,
+        "level_energy": "2.5300e-01",
+        "spin": 5.5,
+        "parity": -1,
+        "half_life": "9.0000e-01",
+        "spin_notation": "(11/2-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 4,
+        "level_energy": "4.8400e-01",
+        "spin": 6.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(13/2-)",
+        "gamma_record": []
+      }
+    ]
+  },
+  "indent": 1
+}

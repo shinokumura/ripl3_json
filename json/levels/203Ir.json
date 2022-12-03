@@ -1,0 +1,89 @@
+{
+  "nuclide": "203Ir",
+  "level_info": {
+    "A": 203,
+    "Z": 77,
+    "nlevels": 5,
+    "Sn": "5.8010e+00",
+    "Sp": "9.1290e+00",
+    "levels": [
+      "0.0000e+00",
+      "2.0000e-01",
+      "1.0413e+00",
+      "1.9360e+00",
+      "2.1430e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 1.5,
+        "parity": 1,
+        "half_life": "7.0000e+00",
+        "spin_notation": "3/2+#",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "2.0000e-01",
+        "spin": 5.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(11/2-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.0413e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "(13/2-,15/2-)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "8.4130e-01",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "1.9360e+00",
+        "spin": 9.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(19/2+)",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "8.9470e-01",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      },
+      {
+        "level_number": 5,
+        "level_energy": "2.1430e+00",
+        "spin": 11.5,
+        "parity": 1,
+        "half_life": "8.0000e-07",
+        "spin_notation": "(23/2+)",
+        "gamma_record": [
+          {
+            "final_state": 4,
+            "gamma_energy": "2.0700e-01",
+            "probability_gamma": "7.6510e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "3.0700e-01"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

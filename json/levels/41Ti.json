@@ -1,0 +1,43 @@
+{
+  "nuclide": "41Ti",
+  "level_info": {
+    "A": 41,
+    "Z": 22,
+    "nlevels": 2,
+    "Sn": "1.4775e+01",
+    "Sp": "2.4632e+00",
+    "levels": [
+      "0.0000e+00",
+      "1.6230e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 1.5,
+        "parity": 1,
+        "half_life": "8.1900e-02",
+        "spin_notation": "3/2+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.6230e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.6230e+00",
+            "probability_gamma": "1.0000e+00",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}
