@@ -11,13 +11,15 @@
 # Read descrete levels from RIPL-3 data
 #
 ####################################################################
+
 from operation_util import slices
 import json
+import os
+import re
 
 import sys
 sys.path.append("../")
 from mongodb import post_one_mongodb, replace_one_mongodb
-
 
 def read_identification_record(line):
     #   SYMB    A     Z     Nol    Nog    Nmax    Nc     Sn[MeV]     Sp[MeV]
@@ -101,6 +103,7 @@ def read_levels(charge):
             while lev < lev_lines:
                 nl, elv, s, p, thalf, ng, _, spins, nd = read_level_record(lines[lev])
 
+                ## level layes array
                 gammas = []
                 if int(ng) > 0:
                     for gl in range(lev + 1, lev + 1 + int(ng)):
@@ -148,18 +151,40 @@ def read_levels(charge):
             "level_record": levels,
         }
 
-
     return level_dict
+
+
+def write_json(nuclide, dic):
+    dir = "/Users/sin/Desktop/ripl3_json/json/levels"
+    elem = re.sub(r'[^A-Za-z]{1,2}', '', nuclide)
+    file_dir = os.path.join(dir, elem)
+
+    print(elem)
+
+    if os.path.exists(file_dir):
+        pass
+
+    else:
+        os.mkdir(file_dir)
+
+    file = os.path.join(file_dir, nuclide + ".json")
+
+    with open(file, "wt") as json_file:
+        json.dump(dic, json_file, indent=2)
+
 
 
 def main():
     for charge in range(1,119):
         level_dict = read_levels(charge)
 
-
         for key, item in level_dict.items():
-            # print(fjson.dumps({"nuclide": key, "level_info": item}, indent=1))
-            post_one_mongodb("ripl3_levels", dict({"nuclide": key, "level_info": item}))
+
+            # write json file
+            write_json(key, dict({"nuclide": key, "level_info": item}, indent=1))
+
+            # post data to mongoDb
+            # post_one_mongodb("ripl3_levels", dict({"nuclide": key, "level_info": item}))
             # replace_one_mongodb("ripl3_levels", dict({"nuclide": key}),  dict({"nuclide": key, "level_info": item}))
 
 if __name__ == "__main__":
