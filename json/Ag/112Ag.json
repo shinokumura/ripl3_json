@@ -1,0 +1,43 @@
+{
+  "nuclide": "112Ag",
+  "level_info": {
+    "A": 112,
+    "Z": 47,
+    "nlevels": 2,
+    "Sn": "6.4396e+00",
+    "Sp": "7.8868e+00",
+    "levels": [
+      "0.0000e+00",
+      "1.8500e-02"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 2.0,
+        "parity": -1,
+        "half_life": "1.1270e+04",
+        "spin_notation": "2-*",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.8500e-02",
+        "spin": 1.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(1+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.8500e-02",
+            "probability_gamma": "6.9490e-02",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.3390e+01"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

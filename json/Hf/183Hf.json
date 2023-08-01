@@ -1,0 +1,161 @@
+{
+  "nuclide": "183Hf",
+  "level_info": {
+    "A": 183,
+    "Z": 72,
+    "nlevels": 9,
+    "Sn": "5.3052e+00",
+    "Sp": "8.8020e+00",
+    "levels": [
+      "0.0000e+00",
+      "6.8570e-02",
+      "1.6810e-01",
+      "2.0570e-01",
+      "3.1690e-01",
+      "1.1253e+00",
+      "1.2558e+00",
+      "1.4640e+00",
+      "1.6048e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 1.5,
+        "parity": -1,
+        "half_life": "3.6650e+03",
+        "spin_notation": "(3/2-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "6.8570e-02",
+        "spin": 2.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(5/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "6.8600e-02",
+            "probability_gamma": "7.8190e-02",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.1790e+01"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.6810e-01",
+        "spin": 3.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(7/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.6820e-01",
+            "probability_gamma": "3.2090e-01",
+            "probability_electmag": "4.8750e-01",
+            "internal_conversion": "5.1900e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "2.0570e-01",
+        "spin": 2.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(5/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "2.0560e-01",
+            "probability_gamma": "4.7870e-01",
+            "probability_electmag": "6.0420e-01",
+            "internal_conversion": "2.6200e-01"
+          }
+        ]
+      },
+      {
+        "level_number": 5,
+        "level_energy": "3.1690e-01",
+        "spin": 3.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(7/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "3.1600e-01",
+            "probability_gamma": "1.4540e-01",
+            "probability_electmag": "1.5530e-01",
+            "internal_conversion": "6.7900e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 6,
+        "level_energy": "1.1253e+00",
+        "spin": 2.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(5/2+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.1253e+00",
+            "probability_gamma": "5.6090e-01",
+            "probability_electmag": "5.6170e-01",
+            "internal_conversion": "1.4600e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 7,
+        "level_energy": "1.2558e+00",
+        "spin": 3.5,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(7/2+)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "1.1870e+00",
+            "probability_gamma": "3.3280e-01",
+            "probability_electmag": "3.3330e-01",
+            "internal_conversion": "1.3340e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 8,
+        "level_energy": "1.4640e+00",
+        "spin": -1.0,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "",
+        "gamma_record": []
+      },
+      {
+        "level_number": 9,
+        "level_energy": "1.6048e+00",
+        "spin": 4.5,
+        "parity": 0,
+        "half_life": null,
+        "spin_notation": "(LE9/2)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "1.5365e+00",
+            "probability_gamma": "5.4640e-01",
+            "probability_electmag": "5.4640e-01",
+            "internal_conversion": "0.0000e+00"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

@@ -1,0 +1,43 @@
+{
+  "nuclide": "170Ta",
+  "level_info": {
+    "A": 170,
+    "Z": 73,
+    "nlevels": 2,
+    "Sn": "7.9186e+00",
+    "Sp": "2.7097e+00",
+    "levels": [
+      "0.0000e+00",
+      "3.1620e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 3.0,
+        "parity": 1,
+        "half_life": "4.0560e+02",
+        "spin_notation": "(3+)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "3.1620e-01",
+        "spin": 1.0,
+        "parity": 1,
+        "half_life": null,
+        "spin_notation": "(1+)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "3.1620e-01",
+            "probability_gamma": "9.3440e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "7.0200e-02"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

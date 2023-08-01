@@ -1,0 +1,43 @@
+{
+  "nuclide": "143Ho",
+  "level_info": {
+    "A": 143,
+    "Z": 67,
+    "nlevels": 2,
+    "Sn": "1.2869e+01",
+    "Sp": "-7.8300e-01",
+    "levels": [
+      "0.0000e+00",
+      "3.1800e-01"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 5.5,
+        "parity": -1,
+        "half_life": "3.0000e-01",
+        "spin_notation": "11/2-#",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "3.1800e-01",
+        "spin": 7.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(15/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "3.1800e-01",
+            "probability_gamma": "9.3460e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "7.0000e-02"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

@@ -1,0 +1,97 @@
+{
+  "nuclide": "145Ho",
+  "level_info": {
+    "A": 145,
+    "Z": 67,
+    "nlevels": 5,
+    "Sn": "1.2582e+01",
+    "Sp": "-1.6101e-01",
+    "levels": [
+      "0.0000e+00",
+      "4.8690e-01",
+      "1.1471e+00",
+      "1.8942e+00",
+      "2.6816e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 5.5,
+        "parity": -1,
+        "half_life": "2.4000e+00",
+        "spin_notation": "(11/2-)",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "4.8690e-01",
+        "spin": 7.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(15/2-)",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "4.8690e-01",
+            "probability_gamma": "9.8060e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.9770e-02"
+          }
+        ]
+      },
+      {
+        "level_number": 3,
+        "level_energy": "1.1471e+00",
+        "spin": 9.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(19/2-)",
+        "gamma_record": [
+          {
+            "final_state": 2,
+            "gamma_energy": "6.6020e-01",
+            "probability_gamma": "9.9110e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "8.9400e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 4,
+        "level_energy": "1.8942e+00",
+        "spin": 11.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(23/2-)",
+        "gamma_record": [
+          {
+            "final_state": 3,
+            "gamma_energy": "7.4710e-01",
+            "probability_gamma": "9.9340e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "6.6400e-03"
+          }
+        ]
+      },
+      {
+        "level_number": 5,
+        "level_energy": "2.6816e+00",
+        "spin": 13.5,
+        "parity": -1,
+        "half_life": null,
+        "spin_notation": "(27/2-)",
+        "gamma_record": [
+          {
+            "final_state": 4,
+            "gamma_energy": "7.8740e-01",
+            "probability_gamma": "9.9420e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "5.8800e-03"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}

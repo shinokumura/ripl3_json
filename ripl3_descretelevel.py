@@ -12,14 +12,14 @@
 #
 ####################################################################
 
-from operation_util import slices
+
 import json
 import os
 import re
 
-import sys
-sys.path.append("../")
-from mongodb import post_one_mongodb, replace_one_mongodb
+from submodules.utilities.util import slices
+from submodules.utilities.elem import ztoelem
+
 
 def read_identification_record(line):
     #   SYMB    A     Z     Nol    Nog    Nmax    Nc     Sn[MeV]     Sp[MeV]
@@ -83,7 +83,7 @@ def read_gamma_record(line):
 
 def read_levels(charge):
 
-    levels_file = "./levels/z" + str(charge).zfill(3) + ".dat"
+    levels_file = "data/levels/z" + str(charge).zfill(3) + ".dat"
 
     with open(levels_file) as f:
         lines = f.read().splitlines()
@@ -111,13 +111,13 @@ def read_levels(charge):
                         _, nf, eg, pg, pe, icc = read_gamma_record(lines[gl])
                     gammas.append(
                         {
-                        "final_state": int(nf),
-                        "gamma_energy": "%10.4e" % float(eg),
-                        "probability_gamma": "%10.4e" % float(pg),
-                        "probability_electmag": "%10.4e" % float(pe),
-                        "internal_conversion": "%10.4e" % float(icc),
+                            "final_state": int(nf),
+                            "gamma_energy": "%10.4e" % float(eg),
+                            "probability_gamma": "%10.4e" % float(pg),
+                            "probability_electmag": "%10.4e" % float(pe),
+                            "internal_conversion": "%10.4e" % float(icc),
                         }
-                        )
+                    )
 
                 levels.append(
                     {
@@ -125,11 +125,13 @@ def read_levels(charge):
                         "level_energy": "%10.4e" % float(elv),
                         "spin": float(s.strip()),
                         "parity": int(p.strip()),
-                        "half_life": "%10.4e" % float(thalf.strip()) if thalf.strip() != '' else None,
+                        "half_life": "%10.4e" % float(thalf.strip())
+                        if thalf.strip() != ""
+                        else None,
                         "spin_notation": spins.strip(),
                         "gamma_record": gammas,
                     }
-                    )
+                )
 
                 if lev > i + int(nol) + int(nog):
                     break
@@ -155,9 +157,9 @@ def read_levels(charge):
 
 
 def write_json(nuclide, dic):
-    dir = "/Users/sin/Desktop/ripl3_json/json/levels"
-    elem = re.sub(r'[^A-Za-z]{1,2}', '', nuclide)
-    file_dir = os.path.join(dir, elem)
+
+    elem = re.sub(r"[^A-Za-z]{1,2}", "", nuclide)
+    file_dir = os.path.join("json", elem)
 
     print(elem)
 
@@ -173,9 +175,8 @@ def write_json(nuclide, dic):
         json.dump(dic, json_file, indent=2)
 
 
-
 def main():
-    for charge in range(1,119):
+    for charge in range(1, 119):
         level_dict = read_levels(charge)
 
         for key, item in level_dict.items():
@@ -186,6 +187,73 @@ def main():
             # post data to mongoDb
             # post_one_mongodb("ripl3_levels", dict({"nuclide": key, "level_info": item}))
             # replace_one_mongodb("ripl3_levels", dict({"nuclide": key}),  dict({"nuclide": key, "level_info": item}))
+
+
+###################################################################
+###
+###   For exfor_parser
+###
+###################################################################
+
+
+class RIPL_Level:
+    def __init__(self, charge, mass, e_lvl):
+
+        self.charge = int(charge)
+        self.mass = int(mass)
+        self.e_lvl = float(e_lvl)
+
+        self.lelevs_info = self.ripl_levels_info_by_nuclide()
+        self.levels = self.ripl_levels_by_nuclide()
+
+
+    def ripl_levels_by_charge(self):
+        return read_levels(self.charge)
+
+
+    def ripl_levels_info_by_nuclide(self):
+        elem = ztoelem(self.charge)
+        file = os.path.join(
+            "json/levels/", elem, str(self.mass) + elem + ".json"
+        )
+        if os.path.exists(file):
+            with open(file) as f:
+                json_content = f.read()
+            return json.loads(json_content)
+        
+        else:
+            return None
+
+
+    def ripl_levels_by_nuclide(self):
+        if self.lelevs_info:
+            return self.lelevs_info["level_info"]["levels"]
+        
+        else:
+            return []
+
+
+    def ripl_find_level_num(self):
+        if self.e_lvl == 0.0:
+            return int(0)
+        else:
+            for l in range(len(self.levels)):
+                if self.e_lvl * 0.95 < float(self.levels[l]) < self.e_lvl * 1.05:
+                    return int(l)
+            return None
+        
+
+    def get_all_ripl_levels(self):
+        all = {}
+        for charge in range(1, 119):
+            level_dict = read_levels(charge)
+
+            for key, item in level_dict.items():
+                # write json file
+                all = {"nuclide": key, "level_info": item}
+
+        return read_levels(self.charge)
+
 
 if __name__ == "__main__":
     main()

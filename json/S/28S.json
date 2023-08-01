@@ -1,0 +1,43 @@
+{
+  "nuclide": "28S",
+  "level_info": {
+    "A": 28,
+    "Z": 16,
+    "nlevels": 2,
+    "Sn": "2.1489e+01",
+    "Sp": "2.5567e+00",
+    "levels": [
+      "0.0000e+00",
+      "1.5070e+00"
+    ],
+    "level_record": [
+      {
+        "level_number": 1,
+        "level_energy": "0.0000e+00",
+        "spin": 0.0,
+        "parity": 1,
+        "half_life": "1.2500e-01",
+        "spin_notation": "0+",
+        "gamma_record": []
+      },
+      {
+        "level_number": 2,
+        "level_energy": "1.5070e+00",
+        "spin": 2.0,
+        "parity": 1,
+        "half_life": "2.0000e-12",
+        "spin_notation": "2+",
+        "gamma_record": [
+          {
+            "final_state": 1,
+            "gamma_energy": "1.5070e+00",
+            "probability_gamma": "9.9990e-01",
+            "probability_electmag": "1.0000e+00",
+            "internal_conversion": "1.1010e-04"
+          }
+        ]
+      }
+    ]
+  },
+  "indent": 1
+}
