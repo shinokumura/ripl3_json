@@ -15,7 +15,8 @@ requirements = read_requirements("requirements.txt")
 setup(
     name="ripl3_json",
     description="RIPL3 JSON converter",
-    packages=find_packages(), 
+    packages=find_packages(),
+    package_dir={"":"source"},
     # py_modules=["ripl3_descretelevel", "ripl3_mass"],
     package_data={"": ["*.json"]},
     version=version,
@@ -24,7 +25,7 @@ setup(
     maintainer="IAEA-NDS",
     maintainer_email="nds.contact-point@iaea.org",
     license="MIT license",
-    url="https://github.com/shinokumura/ripl3_json.git",
+    url="https://github.com/shinokumura/ripl3_json",
     python_requires=">=3.8",
     install_requires=requirements,
     classifiers=[
