@@ -15,8 +15,9 @@ requirements = read_requirements("requirements.txt")
 setup(
     name="ripl3_json",
     description="RIPL3 JSON converter",
-    packages=find_packages(exclude=["test"]), 
-    py_modules=["ripl3_descretelevel", "ripl3_mass"],
+    packages=find_packages(), 
+    # py_modules=["ripl3_descretelevel", "ripl3_mass"],
+    package_data={"": ["*.json"]},
     version=version,
     author="Shin Okumura/IAEA-NDS",
     author_email="s.okumura@iaea.org",

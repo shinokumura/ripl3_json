@@ -1,7 +1,7 @@
 import pandas as pd
 from submodules.utilities.util import slices
 
-from config import MASSFILE, AME2020
+from source.config import MASSFILE, AME2020
 
 def read_mass_table():
     z = []
@@ -67,4 +67,4 @@ def read_amdc():
 
 
 mass_table_df = read_mass_table()
-
+print(mass_table_df)
