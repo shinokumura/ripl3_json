@@ -10,8 +10,9 @@
 #
 ####################################################################
 
-MASSFILE = "data/mass-frdm95.dat"
-# MASSFILE = "datamass-hfb14.dat"
-AME2020 = ".mass_1.mass20.txt"
+MASSFILE_FRDM = "data/mass-frdm95.dat"
+MASSFILE_HFB = "datamass-hfb14.dat"
+MASSFILE = MASSFILE_FRDM
+AME2020 = "data/mass_1.mass20.txt"
 
 

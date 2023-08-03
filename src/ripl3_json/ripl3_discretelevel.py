@@ -8,7 +8,7 @@
 #             among collaborators.
 # Contact:    nds.contact-point@iaea.org
 #
-# Read descrete levels from RIPL-3 data
+# Read discrete levels from RIPL-3 data
 #
 ####################################################################
 
@@ -159,7 +159,7 @@ def read_levels(charge):
 def write_json(nuclide, dic):
 
     elem = re.sub(r"[^A-Za-z]{1,2}", "", nuclide)
-    file_dir = os.path.join("json", elem)
+    file_dir = os.path.join("levels_json", elem)
 
     print(elem)
 
@@ -194,8 +194,6 @@ def main():
 ###   For exfor_parser
 ###
 ###################################################################
-
-
 class RIPL_Level:
     def __init__(self, charge, mass, e_lvl):
 
@@ -214,7 +212,7 @@ class RIPL_Level:
     def ripl_levels_info_by_nuclide(self):
         elem = ztoelem(self.charge)
         file = os.path.join(
-            "json/levels/", elem, str(self.mass) + elem + ".json"
+            "levels_json", elem, str(self.mass) + elem + ".json"
         )
         if os.path.exists(file):
             with open(file) as f:

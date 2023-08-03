@@ -1,9 +1,10 @@
 import pandas as pd
 from submodules.utilities.util import slices
 
-from source.config import MASSFILE, AME2020
+from .config import MASSFILE, MASSFILE_FRDM, MASSFILE_HFB, AME2020
 
-def read_mass_table():
+
+def read_mass_table(MASSFILE):
     z = []
     a = []
     mselect = []
@@ -66,5 +67,17 @@ def read_amdc():
     return df
 
 
-mass_table_df = read_mass_table()
-print(mass_table_df)
+# mass_table_df = read_mass_table()
+# print(mass_table_df)
+
+
+def mass_frdm():
+    return read_mass_table(MASSFILE_FRDM)
+
+
+def mass_hfb():
+    return read_mass_table(MASSFILE_HFB)
+
+if __name__ == "__main__":
+    df = mass_frdm()
+    print(df)
