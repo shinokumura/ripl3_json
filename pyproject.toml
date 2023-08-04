@@ -1,7 +1,6 @@
 [build-system]
-requires = ["hatchling", "hatch-requirements-txt"]
-build-backend = "hatchling.build"
-
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "ripl3_json"
@@ -22,10 +21,20 @@ classifiers = [
 ]
 dynamic = ["dependencies"]
 
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools]
+include-package-data = true
 
 
-[tool.hatch.metadata.hooks.requirements_txt]
-files = ["requirements.txt"]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json"]
+data = ["*.txt", "*.dat"]
+
 
 [project.urls]
 Homepage = "https://github.com/shinokumura/ripl3_json"
