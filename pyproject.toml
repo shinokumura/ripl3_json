@@ -21,30 +21,20 @@ classifiers = [
 ]
 dynamic = ["dependencies"]
 
-
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.setuptools]
 include-package-data = true
 
-
-[tool.setuptools.packages.find]
-where = ["src", "submodules"]
-
-
 [tool.setuptools.package-data]
-"data" = ["*.dat", "*.txt"]
-"data.levels" = ["*.dat"]
-"submodules.utilities" = ["A_min_max.txt"]
-"levels_json" = ["*/*.json"]
+"ripl3_json.data" = ["*.dat", "*.txt"]
+"ripl3_json.data.levels" = ["*.dat"]
+"ripl3_json.data.levels_json" = ["*/*.json"]
 
 [project.urls]
 Homepage = "https://github.com/shinokumura/ripl3_json"
 
-
-[project.scripts]
-convert = "ripl3_json.ripl3_discretelevel:main"
-RIPL_Level = "ripl3_json.ripl3_dscretelevel:RIPL_Level"
-mass_frdm = "ripl3_json.ripl3_mass:mass_frdm"
-mass_hfb = "ripl3_json.ripl3_mass:mass_hfb"

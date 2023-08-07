@@ -17,8 +17,9 @@ import json
 import os
 import re
 
-from submodules.utilities.util import slices
-from submodules.utilities.elem import ztoelem
+from .config import data_path, out_path
+from .submodules.utilities.util import slices
+from .submodules.utilities.elem import ztoelem
 
 
 def read_identification_record(line):
@@ -83,7 +84,7 @@ def read_gamma_record(line):
 
 def read_levels(charge):
 
-    levels_file = "data/levels/z" + str(charge).zfill(3) + ".dat"
+    levels_file = os.path.join( data_path, "levels", "z" + str(charge).zfill(3) + ".dat" )
 
     with open(levels_file) as f:
         lines = f.read().splitlines()
@@ -159,7 +160,7 @@ def read_levels(charge):
 def write_json(nuclide, dic):
 
     elem = re.sub(r"[^A-Za-z]{1,2}", "", nuclide)
-    file_dir = os.path.join("levels_json", elem)
+    file_dir = os.path.join(out_path, "levels_json", elem)
 
     print(elem)
 
@@ -195,13 +196,13 @@ def main():
 ###
 ###################################################################
 class RIPL_Level:
-    def __init__(self, charge, mass, e_lvl):
+    def __init__(self, charge, mass, e_lvl=None):
 
         self.charge = int(charge)
         self.mass = int(mass)
         self.e_lvl = float(e_lvl)
 
-        self.lelevs_info = self.ripl_levels_info_by_nuclide()
+        self.levels_info = self.ripl_levels_info_by_nuclide()
         self.levels = self.ripl_levels_by_nuclide()
 
 
@@ -211,9 +212,7 @@ class RIPL_Level:
 
     def ripl_levels_info_by_nuclide(self):
         elem = ztoelem(self.charge)
-        file = os.path.join(
-            "levels_json", elem, str(self.mass) + elem + ".json"
-        )
+        file = os.path.join( data_path, "levels_json", elem, str(self.mass) + elem + ".json" )
         if os.path.exists(file):
             with open(file) as f:
                 json_content = f.read()
@@ -224,8 +223,8 @@ class RIPL_Level:
 
 
     def ripl_levels_by_nuclide(self):
-        if self.lelevs_info:
-            return self.lelevs_info["level_info"]["levels"]
+        if self.levels_info:
+            return self.levels_info["level_info"]["levels"]
         
         else:
             return []

@@ -9,10 +9,21 @@
 # Contact:    nds.contact-point@iaea.org
 #
 ####################################################################
+import os
 
-MASSFILE_FRDM = "data/mass-frdm95.dat"
-MASSFILE_HFB = "datamass-hfb14.dat"
+if os.path.exists("data"):
+    data_path = "./data"
+else:
+    from importlib.resources import files
+    data_path = files("ripl3_json").joinpath("data")
+
+print(data_path)
+
+out_path = "./data"
+
+MASSFILE_FRDM = os.path.join(data_path, "mass-frdm95.dat")
+MASSFILE_HFB = os.path.join(data_path, "mass-hfb14.dat")
 MASSFILE = MASSFILE_FRDM
-AME2020 = "data/mass_1.mass20.txt"
+AME2020 = os.path.join(data_path, "mass_1.mass20.txt")
 
 
