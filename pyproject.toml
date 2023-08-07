@@ -21,6 +21,7 @@ classifiers = [
 ]
 dynamic = ["dependencies"]
 
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
@@ -29,12 +30,14 @@ include-package-data = true
 
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["src", "submodules"]
+
 
 [tool.setuptools.package-data]
-"*" = ["*.json"]
-data = ["*.txt", "*.dat"]
-
+"data" = ["*.dat", "*.txt"]
+"data.levels" = ["*.dat"]
+"submodules.utilities" = ["A_min_max.txt"]
+"levels_json" = ["*/*.json"]
 
 [project.urls]
 Homepage = "https://github.com/shinokumura/ripl3_json"
