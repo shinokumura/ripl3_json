@@ -1,6 +1,6 @@
 import pandas as pd
-from .submodules.utilities.util import slices
 
+from .submodules.utilities.util import slices
 from .config import MASSFILE, MASSFILE_FRDM, MASSFILE_HFB, AME2020
 
 
