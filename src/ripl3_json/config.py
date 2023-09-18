@@ -14,10 +14,10 @@ import os
 if os.path.exists("data"):
     data_path = "./data"
 else:
-    from importlib.resources import files
-    data_path = files("ripl3_json").joinpath("data")
-
-print(data_path)
+    # from importlib.resources import files
+    # data_path = files("ripl3_json").joinpath("data")
+    import site
+    data_path = os.path.join(site.getsitepackages()[0], "ripl3_json/data")
 
 out_path = "./data"
 
